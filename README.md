@@ -1,0 +1,2 @@
+# JavaScript-Landmark-Game
+I used Javascript to make a game wherein the user is shown a picture of a famous landmark, and then they have to pick which continent it belongs to. The user checks a checkbox to pick which continent they think is the correct answer. There are ten landmark pictures that are scrolled through in a slide show. The user is then given a score out of ten at the end of the game.
