@@ -30,4 +30,4 @@ if(imageIndex == landmarkImages.length ){
 
 /* Say congratulations to the user */ var goodBye = document.getElementById("goodBye"); goodBye.innerHTML += name + "!";
 
-var scoreStatement = document.getElementById("scoreStatement"); scoreStatement.innerHTML += score + "/10"; }
+var scoreStatement = document.getElementById("scoreStatement"); scoreStatement.innerHTML += score + "/10"; 
