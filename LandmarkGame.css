@@ -1,0 +1,22 @@
+html{ height: 100%; text-align: center; font-family: "Applegothic"; }
+
+continents{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+landmarkImage{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+height: 450px;
+}
+
+theEnd{
+margin-left: auto;
+margin-right: auto;
+width: 50%;
+}
+
+.footer { position: fixed; left: 0; bottom: 0; width: 100%; text-align: center; }

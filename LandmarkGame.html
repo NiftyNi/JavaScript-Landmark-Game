@@ -1,0 +1,66 @@
+<body>
+    <h1><b>Guess the Continent</b></h1>
+
+    <div id="intro">
+        <p id="greeting"> Welcome to Niara's Infamous Landmark game</p>
+        <p> You will be shown various pictures of famous landmarks as clues, and you are to choose which continent you think these landmarks belong to.</p>
+        <p> At the end of the game you'll be given a score out of ten!</p>
+        <p> Are you ready to start?</p>
+    </div>
+
+    <div id="startButton">
+        <button id="begin">BEGIN GAME</button>
+    </div>
+
+    <div id="image">
+        <img id="continents" src="https://grahamdennis.me/wp-content/uploads/continents-and-oceans-at-of-the-world-map-besttabletfor-me-with.jpg"alt="Continents">
+    </div>
+
+    <div id="gameBoard" hidden>
+        <h3>In what continent do you find this famous landmark?</h3>
+
+        <div id="slideshow">
+            <img id="landmarkImage" src="https://www.rd.com/wp-content/uploads/2017/03/06_Eiffel_shutterstock_124834105-1024x683.jpg">
+        </div>
+
+        <div id="checkBoxes">
+            <input type="checkbox" id="northAmerica" value="northAmerica">North America<br>
+            <input type="checkbox" id="southAmerica" value="southAmerica">South America<br>
+            <input type="checkbox" id="europe" value="europe">Europe<br>
+            <input type="checkbox" id="africa" value="africa">Africa<br>
+            <input type="checkbox" id="asia" value="asia">Asia<br>
+            <input type="checkbox" id="australasia" value="australasia">Australasia<br>
+            <input type="checkbox" id="antarctica" value="antarctica">Antarctica<br>
+        </div>
+
+        <div>
+            <button id="submit">SUBMIT</button>
+        </div>
+
+        <p id="yourAnswer"></p>
+
+        <div id="instructions">
+            <p>(Check the box next to the continent you think this landmark belongs to, then click the submit button to move onto the next landmark)</p>
+        </div>
+
+    </div>
+
+    <div id="endPage" hidden>
+        <img id="theEnd" src="https://i0.wp.com/graphitepublications.com/wp-content/uploads/2016/12/the-end.jpg?fit=640%2C360&ssl=1"alt="theEnd">
+        <br>
+        <button id="finish">SEE YOUR SCORE</button>
+    </div>
+
+
+    <div id="scorePage" hidden>
+        <h3 id="goodBye">Congratulations </h3>
+        <h3>You have completed Niara's Infamous Landmark Game!</h3>
+        <p id="scoreStatement">You scored </p>
+        <img id="thanks" src="https://static.tumblr.com/b701cdea4f87e0bfdb413940bdc3d761/m8kqpkp/MLnn7pf1p/tumblr_static__640_v2.jpg" alt="thanks">
+        <div class="footer">
+            <p>This was a "Nifty Niara" webapp</p>
+        </div>
+    </div>
+
+    <script type="text/javascript" src="Project.js"></script>
+</body>
